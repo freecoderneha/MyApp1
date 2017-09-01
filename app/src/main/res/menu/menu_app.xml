@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profile_photo"
+        app:showAsAction="always"
+        android:title="Photo" />
+
+    <item
+        android:id="@+id/action_helpdesk"
+        android:title="@string/category_help"
+        app:showAsAction="never"
+     />
+
+    <item
+        android:id="@+id/action_sign_out"
+        android:title="@string/category_sign_out"
+        app:showAsAction="never" />
+
+
+</menu>
